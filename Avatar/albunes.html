@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álbumes</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <style>
+        /* Estilos de fondo para la página */
+        body {
+            background-color: #121212; /* Color de fondo oscuro */
+            color: #ffffff;            /* Texto en color blanco */
+        }
+
+        /* Ajuste opcional para cambiar el fondo de las tarjetas */
+        .card {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 1px solid #333;
+        }
+
+        .card-text.text-muted {
+            color: #b3b3b3 !important; /* Texto secundario más claro */
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Mi Sitio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="albunes.html">Álbumes</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-4">
+        <h1 class="mb-4">Mis Álbumes Favoritos</h1>
+
+        <div class="row g-4">
+            <!-- Álbum 1 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/Travis.jpg" class="card-img-top" alt="Album 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Astroworld</h5>
+                        <p class="card-text text-muted">Travis Scott</p>
+                        <a href="https://open.spotify.com/intl-es/album/41GuZcammIkupMPKH2OJ6I" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Álbum 2 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/Ken carson.jpg" class="card-img-top" alt="Album 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">More Chaos</h5>
+                        <p class="card-text text-muted">Ken Carson</p>
+                        <a href="https://open.spotify.com/intl-es/album/1TiWFnZwyZ152viq7v9C31" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Álbum 3 -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="img/Carti.jpg" class="card-img-top" alt="Album 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">I Am Music</h5>
+                        <p class="card-text text-muted">Playboi Carti</p>
+                        <a href="https://open.spotify.com/intl-es/album/1n0ox0TX9wy4PHDTnEj5II" target="_blank" class="btn btn-success mt-auto">Escuchar en Spotify</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
